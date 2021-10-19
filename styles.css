@@ -1,4 +1,4 @@
-*
+body
 {
     margin: 0;
     padding: 0;
@@ -20,7 +20,6 @@ padding-bottom: 3%;
     padding-left: 1%;
     border: 0px;
     height: 200px;
-    width: auto;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -36,17 +35,17 @@ padding-bottom: 3%;
 {
     font-family: 'Roboto', arial;
     font-size: 18px;
-    flex: 1 1 0%;
+    flex: 1 2 0%;
     text-align: left;
     
 }
 footer
 {
-    background-color: rgb(238, 170, 81);
+    background-color: #1F2937;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    height: 70px;
 }
 
 .Body1
@@ -54,13 +53,27 @@ footer
     background-color: #1F2937;
     display: flex;
     justify-content: center;
-    height: 600px;
+    height: 500px;
 }
 
 .Body2
 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+.Body3
+{
     background-color: rgb(214, 211, 205);
     display: flex;
     justify-content: center;
-    height: 900px;
+    height: 400px;
+}
+.Body4
+{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    height: 400px;
 }
