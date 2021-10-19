@@ -1,14 +1,44 @@
-header
+.menu .center
 {
-    background-color: aqua;
+
+justify-content: left;
+
+}
+.menu
+{
+    background-color: rgb(218, 240, 240);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
+.menu .right
+{
+    font-family: Georgia, serif;
+    
+}
 footer
 {
-    background-color: burlywood;
+    background-color: rgb(238, 170, 81);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
 }
 
-.body
+.Body1
 {
-    background-color: cornflowerblue;
+    background-color: rgb(199, 209, 226);
+    display: flex;
+    justify-content: center;
+    height: 900px;
+}
+
+.Body2
+{
+    background-color: rgb(214, 211, 205);
+    display: flex;
+    justify-content: center;
+    height: 900px;
 }
