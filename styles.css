@@ -1,16 +1,28 @@
 .menu .center
 {
 
-flex: 8 1 0%;
+flex: 1 1 0%;
 
 }
 .menu
 {
-    background-color: rgb(218, 240, 240);
+    background-color: #1F2937;
+    color: white;
+    margin: 0%;
+    border: 0px;
     height: 100px;
+    width: auto;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+
+.menu .centertext
+{
+    font-family: Georgia, serif;
+    flex: 8 1 0%;
+    text-align: left;
+    
 }
 
 .menu .right
@@ -32,10 +44,10 @@ footer
 
 .Body1
 {
-    background-color: rgb(199, 209, 226);
+    background-color: #1F2937;
     display: flex;
     justify-content: center;
-    height: 900px;
+    height: 600px;
 }
 
 .Body2
