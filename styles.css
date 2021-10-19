@@ -1,8 +1,9 @@
 .menu .center
 {
 
-justify-content: left;
-
+padding-right: 70%;
+padding-left: 1%;
+margin-left: 1%;
 }
 .menu
 {
@@ -11,6 +12,7 @@ justify-content: left;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex: 1;
 }
 
 .menu .right
