@@ -1,9 +1,8 @@
 .menu .center
 {
 
-padding-right: 70%;
-padding-left: 1%;
-margin-left: 1%;
+flex: 2 1 0%;
+
 }
 .menu
 {
@@ -18,6 +17,7 @@ margin-left: 1%;
 .menu .right
 {
     font-family: Georgia, serif;
+    flex: 1 1 0%;
     
 }
 footer
