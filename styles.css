@@ -54,10 +54,19 @@ footer
 {
     background-color: #1F2937;
     display: flex;
+    flex: 1 1 0%;
     justify-content: center;
     height: 550px;
 }
+.Body1 .body1right
+{
+    background-color: yellow;
+}
 
+.Body1 .body1left
+{
+    background-color: wheat;
+}
 .Body2
 {
     background-color: white;
