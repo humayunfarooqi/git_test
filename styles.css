@@ -40,6 +40,13 @@ padding-bottom: 3%;
     padding-left: 5px;
     padding-right: 5px;
 }
+
+.menu a
+{
+    text-decoration: none;
+    color: white;
+}
+
 footer
 {
     background-color: #1F2937;
@@ -56,16 +63,22 @@ footer
     display: flex;
     flex: 1 1 0%;
     justify-content: center;
+    align-items: center;
     height: 550px;
+    gap: 2%;
 }
 .Body1 .body1right
 {
-    background-color: yellow;
+    background-color: white;
+    width: 30%;
+    height: 50%;
 }
 
 .Body1 .body1left
 {
-    background-color: wheat;
+    background-color:lightgray;
+    width: 20%;
+    height: 40%;
 }
 .Body2
 {
