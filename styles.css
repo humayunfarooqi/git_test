@@ -64,14 +64,12 @@ footer
     flex: 1 1 0%;
     justify-content: center;
     align-items: center;
-    height: 550px;
+    height: 520px;
     gap: 2%;
 }
 .Body1 .body1right
 {
-    background-color: white;
-    width: 30%;
-    height: 50%;
+ 
 }
 
 .Body1 .body1left
@@ -84,9 +82,34 @@ footer
 {
     background-color: white;
     display: flex;
+    flex: 1 1 0%;
     justify-content: center;
+    align-items: center;
     height: 400px;
+    gap: 2%;
 }
+
+.Body2 .body2left
+{
+    background-color:lightgray;
+    width: 20%;
+    height: 40%;
+}
+
+.Body2 .body2right
+{
+    background-color:lightgreen;
+    width: 20%;
+    height: 40%;
+}
+
+.Body2 .body2center
+{
+    background-color:lightskyblue;
+    width: 20%;
+    height: 40%;
+}
+
 .Body3
 {
     background-color: #E5E7EB;
@@ -104,6 +127,7 @@ footer
     font-size: 30px;
     padding-left: 20%;
     padding-right: 20%;
+    text-align: justify;
 }
 .Body3 .author
 {
@@ -121,6 +145,15 @@ footer
 {
     background-color: white;
     display: flex;
+    flex: 1 1 0%;
     justify-content: center;
+    align-items: center;
     height: 400px;
+}
+
+.Body4 .body4center
+{
+    background-color:lightcoral;
+    width: 50%;
+    height: 40%;
 }
