@@ -64,20 +64,48 @@ footer
     flex: 1 1 0%;
     justify-content: center;
     align-items: center;
-    height: 520px;
+    padding: 90px;
     gap: 2%;
 }
 .Body1 .body1right
 {
- 
+    width: 500px;
+    height: 350px;
 }
 
 .Body1 .body1left
 {
-    background-color:lightgray;
-    width: 20%;
-    height: 40%;
+    flex-basis: 400px;
+    flex-direction: column;
 }
+
+.body1h
+{
+    color:#F9FAF8;
+    font-size: 48px;
+}
+
+.body1p
+{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.button1
+{
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 .Body2
 {
     background-color: white;
