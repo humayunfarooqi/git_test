@@ -20,7 +20,7 @@ padding-bottom: 3%;
     padding-right: 3%;
     padding-left: 1%;
     border: 0px;
-    height: 200px;
+    height: 150px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -64,7 +64,7 @@ footer
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 530px;
+    height: 500px;
     gap: 2%;
 }
 .Body1 .body1right
@@ -110,6 +110,7 @@ footer
 .Body2
 {
     background-color: white;
+    flex-direction: column;
     display: flex;
     flex: 1 1 0%;
     justify-content: center;
@@ -117,26 +118,41 @@ footer
     height: 400px;
     gap: 2%;
 }
+.Body2 .body2up
+{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+}
+
+.Body2 .body2down
+{
+    display: flex;
+    flex-direction: row;
+}
 
 .Body2 .body2left
 {
-    background-color:lightgray;
-    width: 20%;
-    height: 40%;
+    
+    margin: 20px;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .Body2 .body2right
 {
-    background-color:lightgreen;
-    width: 20%;
-    height: 40%;
+    margin: 20px;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .Body2 .body2center
 {
-    background-color:lightskyblue;
-    width: 20%;
-    height: 40%;
+    margin: 20px;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .Body3
@@ -182,7 +198,44 @@ footer
 
 .Body4 .body4center
 {
-    background-color:lightcoral;
-    width: 50%;
-    height: 40%;
+    background-color:#3882F6;
+    width: 850px;
+    height: 130px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.body4center .body4left
+{
+    flex: 3 1 0%;
+    text-align: center;
+}
+
+.body4center .body4right
+{
+    flex: 1 1 0%;
+}
+
+.body4text1
+{
+    font-size: 40px;
+}
+.body4text2
+{
+    font-size: 20px;
+}
+.button2
+{
+    display: block;
+    text-align: center;
+    width: 110px;
+    background: lightskyblue;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
 }
