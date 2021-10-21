@@ -210,7 +210,8 @@ footer
 .body4center .body4left
 {
     flex: 3 1 0%;
-    text-align: center;
+    text-align: left;
+    padding-left: 50px;
 }
 
 .body4center .body4right
@@ -220,11 +221,13 @@ footer
 
 .body4text1
 {
-    font-size: 40px;
+    font-size: 25px;
+    color: white;
 }
 .body4text2
 {
     font-size: 20px;
+    color: beige;
 }
 .button2
 {
