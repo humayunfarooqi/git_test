@@ -2,6 +2,7 @@ body
 {
     margin: 0;
     padding: 0;
+    background-color: white;
 }
 
 .menu .center
@@ -61,10 +62,9 @@ footer
 {
     background-color: #1F2937;
     display: flex;
-    flex: 1 1 0%;
     justify-content: center;
     align-items: center;
-    padding: 90px;
+    height: 530px;
     gap: 2%;
 }
 .Body1 .body1right
@@ -75,8 +75,9 @@ footer
 
 .Body1 .body1left
 {
-    flex-basis: 400px;
+
     flex-direction: column;
+    width: 400px;
 }
 
 .body1h
