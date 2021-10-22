@@ -105,6 +105,7 @@ footer
     font-family: 'Roboto', arial;
     text-decoration: none;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .Body2
@@ -241,4 +242,5 @@ footer
     font-family: 'Roboto', arial;
     text-decoration: none;
     font-weight: bold;
+    cursor: pointer;
 }
