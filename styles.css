@@ -10,7 +10,7 @@ body
 
 flex: 2 1 0%;
 text-align: right;
-padding-bottom: 3%;
+
 
 }
 .menu
@@ -64,7 +64,7 @@ footer
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    height: 550px;
     gap: 2%;
 }
 .Body1 .body1right
@@ -84,6 +84,7 @@ footer
 {
     color:#F9FAF8;
     font-size: 48px;
+    font-family: 'Exo 2', sans-serif;
 }
 
 .body1p
@@ -238,9 +239,10 @@ footer
     background: lightskyblue;
     padding: 10px;
     border-radius: 8px;
-    color: #fff;
+    color: black
     font-family: 'Roboto', arial;
     text-decoration: none;
     font-weight: bold;
     cursor: pointer;
+    border-style: none;
 }
